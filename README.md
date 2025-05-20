@@ -17,15 +17,17 @@ The project is meant as a first practice in Python web-scraping, covering these 
 
 ## Folder layout
 
->books_scraper/
->│
->├─ scrape_book.py main program – run this file
->├─ utils/ helper modules
->│ ├─ init.py
->│ ├─ fetch_page.py download a page and return BeautifulSoup
->│ ├─ parse_book.py extract details from each book page
->│ └─ create_file.py write CSV and JSON
->└─ data/ (created automatically – contains output)
+```bash
+books_scraper/
+│
+├─ scrape_book.py main program – run this file
+├─ utils/ helper modules
+│ ├─ init.py
+│ ├─ fetch_page.py download a page and return BeautifulSoup
+│ ├─ parse_book.py extract details from each book page
+│ └─ create_file.py write CSV and JSON
+└─ data/ (created automatically – contains output)
+```
 
 ## Prerequisites
 - Python 3.10 or newer
