@@ -1,0 +1,142 @@
+[
+    {
+        "Genre":"Poetry",
+        "Title":"A Light in the Attic",
+        "Price":51.77,
+        "Stock":22,
+        "Rating":3
+    },
+    {
+        "Genre":"Historical Fiction",
+        "Title":"Tipping the Velvet",
+        "Price":53.74,
+        "Stock":20,
+        "Rating":1
+    },
+    {
+        "Genre":"Fiction",
+        "Title":"Soumission",
+        "Price":50.1,
+        "Stock":20,
+        "Rating":1
+    },
+    {
+        "Genre":"Mystery",
+        "Title":"Sharp Objects",
+        "Price":47.82,
+        "Stock":20,
+        "Rating":4
+    },
+    {
+        "Genre":"History",
+        "Title":"Sapiens: A Brief History of Humankind",
+        "Price":54.23,
+        "Stock":20,
+        "Rating":5
+    },
+    {
+        "Genre":"Young Adult",
+        "Title":"The Requiem Red",
+        "Price":22.65,
+        "Stock":19,
+        "Rating":1
+    },
+    {
+        "Genre":"Business",
+        "Title":"The Dirty Little Secrets of Getting Your Dream Job",
+        "Price":33.34,
+        "Stock":19,
+        "Rating":4
+    },
+    {
+        "Genre":"Default",
+        "Title":"The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "Price":17.93,
+        "Stock":19,
+        "Rating":3
+    },
+    {
+        "Genre":"Default",
+        "Title":"The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "Price":22.6,
+        "Stock":19,
+        "Rating":4
+    },
+    {
+        "Genre":"Poetry",
+        "Title":"The Black Maria",
+        "Price":52.15,
+        "Stock":19,
+        "Rating":1
+    },
+    {
+        "Genre":"Default",
+        "Title":"Starving Hearts (Triangular Trade Trilogy, #1)",
+        "Price":13.99,
+        "Stock":19,
+        "Rating":2
+    },
+    {
+        "Genre":"Poetry",
+        "Title":"Shakespeare's Sonnets",
+        "Price":20.66,
+        "Stock":19,
+        "Rating":4
+    },
+    {
+        "Genre":"Young Adult",
+        "Title":"Set Me Free",
+        "Price":17.46,
+        "Stock":19,
+        "Rating":5
+    },
+    {
+        "Genre":"Sequential Art",
+        "Title":"Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "Price":52.29,
+        "Stock":19,
+        "Rating":5
+    },
+    {
+        "Genre":"Music",
+        "Title":"Rip it Up and Start Again",
+        "Price":35.02,
+        "Stock":19,
+        "Rating":5
+    },
+    {
+        "Genre":"Music",
+        "Title":"Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "Price":57.25,
+        "Stock":19,
+        "Rating":3
+    },
+    {
+        "Genre":"Poetry",
+        "Title":"Olio",
+        "Price":23.88,
+        "Stock":19,
+        "Rating":1
+    },
+    {
+        "Genre":"Science Fiction",
+        "Title":"Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "Price":37.59,
+        "Stock":19,
+        "Rating":1
+    },
+    {
+        "Genre":"Politics",
+        "Title":"Libertarianism for Beginners",
+        "Price":51.33,
+        "Stock":19,
+        "Rating":2
+    },
+    {
+        "Genre":"Travel",
+        "Title":"It's Only the Himalayas",
+        "Price":45.17,
+        "Stock":19,
+        "Rating":2
+    }
+]
