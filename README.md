@@ -12,11 +12,11 @@ The project is meant as a first practice in Python web-scraping, covering these 
 - Rating – star rating converted to the numbers 1-5
 
 ## Result files
-data/books.csv
-data/books.json
+- data/books.csv
+- data/books.json
 
 ## Folder layout
-
+```http
 books_scraper/
 │
 ├─ scrape_book.py main program – run this file
@@ -26,10 +26,11 @@ books_scraper/
 │ ├─ parse_book.py extract details from each book page
 │ └─ create_file.py write CSV and JSON
 └─ data/ (created automatically – contains output)
+```
 
 ## Prerequisites
-• Python 3.10 or newer
-• Third-party packages: requests, beautifulsoup4, lxml, pandas
+- Python 3.10 or newer
+- Third-party packages: requests, beautifulsoup4, lxml, pandas
 
 ## It is recommended to work inside a virtual environment so that dependencies stay isolated.
 
