@@ -5,11 +5,11 @@ A small command-line tool that downloads book data from the demo site “https:/
 The project is meant as a first practice in Python web-scraping, covering these topics: the requests library, HTML parsing with BeautifulSoup, splitting code into reusable modules, and writing tabular data with Pandas.
 
 ## Data that is collected
-• Genre – the category of the book
-• Title – the book name
-• Price – price in GBP (pounds)
-• Stock – how many copies are listed as available
-• Rating – star rating converted to the numbers 1-5
+- Genre – the category of the book
+- Title – the book name
+- Price – price in GBP (pounds)
+- Stock – how many copies are listed as available
+- Rating – star rating converted to the numbers 1-5
 
 ## Result files
 data/books.csv
