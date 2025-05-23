@@ -18,14 +18,18 @@ data/books.json
 ## Folder layout
 
 books_scraper/
-│
-├─ scrape_book.py main program – run this file
-├─ utils/ helper modules
-│ ├─ init.py
-│ ├─ fetch_page.py download a page and return BeautifulSoup
-│ ├─ parse_book.py extract details from each book page
-│ └─ create_file.py write CSV and JSON
-└─ data/ (created automatically – contains output)
+├── README.md
+├── requirement.txt  
+├── data/            
+│   ├── books.csv
+│   └── books.json
+└── src/             
+    ├── main.py      
+    └── scrapers/    
+        ├── __init__.py 
+        ├── create_file.py
+        ├── fetch_page.py
+        └── parse_book.py
 
 ## Prerequisites
 • Python 3.10 or newer

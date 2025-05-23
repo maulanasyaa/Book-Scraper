@@ -1,10 +1,9 @@
-# ```python
+import re
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import re
 
-from utils.fetch_page import fetch_page
+from scrapers.fetch_page import fetch_page
 
 
 def parse_book(url, parser = 'lxml') -> list[dict]:

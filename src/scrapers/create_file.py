@@ -1,4 +1,3 @@
-# ```python
 import pandas as pd
 
 def create_file(data: list[dict]) -> None:

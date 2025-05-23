@@ -1,9 +1,12 @@
 # ```python
 import os 
-from utils.parse_book import parse_book
-from utils.create_file import create_file
+from dotenv import load_dotenv
+from scrapers.parse_book import parse_book
+from scrapers.create_file import create_file
 
-BASE_URL = "https://books.toscrape.com"
+load_dotenv()
+
+BASE_URL = os.getenv("BASE_URL", "https://www.google.com")
 
 def main():
     os.makedirs('data', exist_ok=True)
