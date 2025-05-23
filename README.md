@@ -31,6 +31,7 @@ books_scraper/
         ├── create_file.py
         ├── fetch_page.py
         └── parse_book.py
+```
 
 ## Prerequisites
 - Python 3.10 or newer
