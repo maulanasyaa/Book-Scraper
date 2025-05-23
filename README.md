@@ -5,18 +5,19 @@ A small command-line tool that downloads book data from the demo site “https:/
 The project is meant as a first practice in Python web-scraping, covering these topics: the requests library, HTML parsing with BeautifulSoup, splitting code into reusable modules, and writing tabular data with Pandas.
 
 ## Data that is collected
-• Genre – the category of the book
-• Title – the book name
-• Price – price in GBP (pounds)
-• Stock – how many copies are listed as available
-• Rating – star rating converted to the numbers 1-5
+- Genre – the category of the book
+- Title – the book name
+- Price – price in GBP (pounds)
+- Stock – how many copies are listed as available
+- Rating – star rating converted to the numbers 1-5
 
 ## Result files
-data/books.csv
-data/books.json
+- data/books.csv
+- data/books.json
 
 ## Folder layout
 
+```bash
 books_scraper/
 ├── README.md
 ├── requirement.txt  
@@ -32,30 +33,42 @@ books_scraper/
         └── parse_book.py
 
 ## Prerequisites
-• Python 3.10 or newer
-• Third-party packages: requests, beautifulsoup4, lxml, pandas
+- Python 3.10 or newer
+- Third-party packages: requests, beautifulsoup4, lxml, pandas
 
 ## It is recommended to work inside a virtual environment so that dependencies stay isolated.
 
 #### Create and activate the virtual environment (Linux / macOS)
+
+```bash
 python -m venv .venv
 source .venv/bin/activate
+```
 
 #### On Windows
+
+```bash
 python -m venv .venv
 .venv\Scripts\activate
+```
 
 ## Install the required packages
+
+```bash
 pip install -r requirements.txt
+```
 
 ## How to run the scraper
+
+```bash
 python scrape_book.py
+```
 
 ## Learning notes
-• Modular code: each task (fetch, parse, write) lives in its own file, so it is easy to maintain.
-• Type hints help editors or linters show mistakes earlier.
-• Basic error handling with try/except keeps the script from crashing.
-• Using CSS selectors in BeautifulSoup (select_one, find_all) simplifies element targeting compared with chains of find().
+- Modular code: each task (fetch, parse, write) lives in its own file, so it is easy to maintain.
+- Type hints help editors or linters show mistakes earlier.
+- Basic error handling with try/except keeps the script from crashing.
+- Using CSS selectors in BeautifulSoup (select_one, find_all) simplifies element targeting compared with chains of find().
 
 ## License
 The project is purely educational. The target website “books.toscrape.com” was created for web-scraping practice and can be accessed without special permission.
